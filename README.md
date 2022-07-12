@@ -21,14 +21,14 @@ This game application was built based on React, with:
 - Hooks
 
 2 significant hooks are used here : useState, useEffect.
-<br> __useState__: state will hook into the component
+<br>-  __useState__: 
+<br>state will hook into the component
 - [dice, setDice] ==> manage die number
 - [tenzies, setTenzies] ==> manage state whether user win the game
 
-<br>__useEffect__: 
+<br>- __useEffect__: 
 <br >it can be the place to side effect code (for instance, fetch data from API) 
 <br> However here it is used to sync 2 internal states.
-<br>React.useEffect(()=>{}, [])
 
 <br>Add __events listeners__ :
 - to freeze die
